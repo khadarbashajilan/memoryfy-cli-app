@@ -1,6 +1,6 @@
 import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
-import { getAllstories, newStory } from "./stories.js";
+import { getAllstories, listStories, newStory } from "./stories.js";
 
 yargs(hideBin(process.argv))
   .command(
@@ -28,7 +28,8 @@ yargs(hideBin(process.argv))
     "get all stories",
     () => {},
     async (argv) => {
-      await getAllstories();
+      const stories = await getAllstories();
+      listStories(stories)
     }
   )
   .demandCommand(1)

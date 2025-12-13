@@ -12,7 +12,7 @@ export const newStory = async (story, tags) => {
 
 export const getAllstories = async () => {
   const db = await getDB();
-  return listStories(db.stories);
+  return db.stories; 
 };
 
 export const listStories = (stories) => {
