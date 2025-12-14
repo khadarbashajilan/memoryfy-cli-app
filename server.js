@@ -1,3 +1,5 @@
+//This file just a guide about "proccess.argv object"
+//A Calculator CLI Tool 
 const userargs = process.argv.slice(2);
 if (userargs[3] || userargs.length !== 3) {
   console.log("Something is wrong");

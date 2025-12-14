@@ -17,7 +17,7 @@ export const saveDB = async (db) => {
 
 export const insertDB = async (data) => {
   const db = await getDB();
-  db.stories.push(data);
+  db.memories.push(data);
   await saveDB(db);
   return data;
 };

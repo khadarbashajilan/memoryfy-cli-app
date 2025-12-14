@@ -1,22 +1,13 @@
 {
-  "stories": [
+  "memories": [
     {
       "tags": [
-        "a",
-        "b",
-        "c"
+        "No job",
+        " Focused",
+        " Grind"
       ],
-      "content": "story1",
-      "id": 1765616561208
-    },
-    {
-      "tags": [
-        "a",
-        "b",
-        "c"
-      ],
-      "content": "story2",
-      "id": 1765616561502
+      "content": "About Life",
+      "id": 1765733497083
     }
   ]
 }
